@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    overflow: hidden;
+    background-color: #0c2f5a;
+    padding: 20px 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+}
+.header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+    border-radius: 4px;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+a.active:hover {
+    background-color: #ffffff;
+    color: hsl(0, 0%, 0%);
+}
+.header-right {
+    float: right;
+    padding: 0 500px 0 0;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: auto;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: auto;
+    }
+}
+.bookapp-first {
+    width: 100%;
+    height: 520px;
+    background-image: url(bokkapp_backgr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+}
+.book-content {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 60px;
+    font-size: 26px;
+    font-weight: 700;
+}
+.book-para {
+    font-size: 23px;
+    padding-top: 35px;
+    font-weight: 400;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: linear-gradient(transparent, #0062ff);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track:hover {
+  background: linear-gradient(#ff0000, transparent);
+  transition: 0.9s;
+}
+.first-section {
+    padding-top: 19%;
+}
+.heading {
+    padding: 80px 60px;
+    background-color: #ebf3f8;
+}
+.para {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para2 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    opacity: 0.8;
+}
+ul li:before {
+    content: '✓';
+    color: rgb(0, 0, 255);
+    /* line-height: 30px; */
+}
+.img {
+    position: relative;
+    left: 850px;
+    background-color: #ebf3f8;
+}
+.form-select{
+    margin-top: 90px;
+    margin-left: 700px;
+    width: 150%;
+}
